@@ -58,3 +58,15 @@ h1 {
     transform: scale(0);
   }
 }
+.card.active {
+  transform: rotateY(0);
+}
+.card.correct {
+  background-color: aquamarine;
+}
+.card.wrong {
+  background-color: rgba(231, 93, 93, 0.616);
+}
+.card.active img {
+  transform: scale(1);
+}
